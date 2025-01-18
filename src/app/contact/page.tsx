@@ -1,8 +1,3 @@
-import Image from "next/image";
-import { IoIosArrowForward } from "react-icons/io";
-import { FaLocationDot } from "react-icons/fa6";
-import { TbPhoneFilled, TbClockHour4Filled } from "react-icons/tb";
-
 export default function Contact() {
   return (
     <>

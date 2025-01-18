@@ -23,13 +23,13 @@ const Cartpage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 py-8 px-4">
+    <div className="min-h-screen bg-gray-300 py-8 px-4">
       <h3 className="text-3xl font-bold text-center mb-8">Your Cart</h3>
       <div className="space-y-6">
         {cartItems.map((item: CartItem) => (
           <div
             key={item.id}
-            className="flex flex-col md:flex-row items-center bg-white shadow-md rounded-lg p-4"
+            className="flex flex-col md:flex-row items-center bg-gray-200 shadow-md rounded-lg p-4"
           >
             {/* Image Section */}
             <div className="flex-shrink-0">
